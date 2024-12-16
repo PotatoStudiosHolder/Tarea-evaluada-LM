@@ -167,3 +167,23 @@ footer.Copyright{
     width: auto;
 }
 
+@media (max-width: 600px) {
+    *{
+        max-width: 100%;
+    }
+
+    .banner{
+        height: 10%;
+    }
+
+    .desayuno{
+        
+    }
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    *{
+        max-width: 100%;
+    }
+}
+

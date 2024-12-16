@@ -45,3 +45,18 @@ section.desayuno { border: solid 2px #252525;
 .contenedor3 { 
     grid-area: menu3; 
 }
+
+@media (max-width: 600px) {
+    .desayuno { 
+        grid-template-columns: 1fr;
+        grid-template-areas: "menu1" "menu2" "menu3";
+    } 
+
+    .desayuno h3 { 
+        font-size: 20px;
+    } 
+    
+    .desayuno p {
+        font-size: 18px; 
+    } 
+}
